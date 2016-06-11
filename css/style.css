@@ -14,8 +14,14 @@ header h1 {
   display: block;
   margin: 0 auto;
 }
+#name input {
+  width: 100%!important;
+}
 .europe, .asia, .austrilia, .island {
   display: none;
+}
+.greeting-msg {
+  margin-top: 50px;
 }
 table {
   margin: 50px 0 175px 0;

@@ -1,4 +1,12 @@
 $(document).ready(function() {
+  $(".greeting").hide();
+  $('#name-form').submit(function(event) {
+    var name = $("#name").val();
+    console.log(name);
+    $(".greeting").show();
+    $(".greeting").text(name + ", here are our recommendations for you.");
+    event.preventDefault();
+  });
   $("#vacation-form").submit(function(event) {
     var region = $("#region").val();
     var beach = $("#beach").val();

@@ -13,9 +13,10 @@ $(document).ready(function() {
     var museums = $("#museums").val();
     var city = $("#city").val();
     var hot = $("#hot").val();
+    console.log(beach);
 
     $('#all').text("Show all destinations");
-    $(".region, .beach, .muesumes, .city, .hot").hide();
+    $(".europe, .asia, .austrilia, .island, .outback").hide();
 
     if (region === 'europe') {
       $(".europe").show();
@@ -23,6 +24,8 @@ $(document).ready(function() {
       $(".asia").show();
     } else if (region === 'austrilia') {
       $(".austrilia").show();
+    } else if (region === 'austrilia' && beach === 'no') {
+       $(".outback").show();
     } else if (region === 'island') {
       $(".island").show();
     } else {
@@ -33,10 +36,10 @@ $(document).ready(function() {
   $("#all").click(function(event) {
     event.preventDefault();
       if ($(this).text() === "Show all destinations") {
-        $(".region, .beach, .muesumes, .city, .hot").show();
+        $(".europe, .asia, .austrilia, .island, .outback").show();
         $(this).text("Hide all destinations");
       } else {
-        $(".region, .beach, .muesumes, .city, .hot").hide();
+        $(".europe, .asia, .austrilia, .island, .outback").hide();
         $(this).text("Show all destinations");
       }
   });

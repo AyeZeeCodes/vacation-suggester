@@ -10,3 +10,13 @@ header h1 {
   text-align: center;
   color: #fff;
 }
+#name {
+  display: block;
+  margin: 0 auto;
+}
+.europe, .asia, .austrilia, .island {
+  display: none;
+}
+table {
+  margin: 50px 0 175px 0;
+}

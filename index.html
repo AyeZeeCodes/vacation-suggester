@@ -12,18 +12,14 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-sm-12">
+          <div class="col-sm-8 col-sm-offset-2">
             <h1>Vacation Suggester</h1>
-              <form id="name" class="form-inline">
-                  <div class="col-sm-8">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" placeholder="Name">
-                   </div>
-                 </div>
-                 <div class="col-sm-4">
-                   <button id="name-btn" class="btn btn-success">Find A Destination</button>
-                 </div>
-             </form>
+            <form id="name" class="form-inline">
+              <div class="form-group">
+                <input type="name" class="form-control" id="name" placeholder="Name">
+              </div>
+              <button type="submit" class="btn btn-default">Get Started</button>
+              </form>
            </div>
           </div>
         </div>
@@ -40,6 +36,7 @@
               <option value="europe">Europe</option>
               <option value="asia">Asia</option>
               <option value="australia">Australia</option>
+              <option value="australia">Island</option>
             </select>
           </div>
           <div class="form-group">
@@ -79,7 +76,99 @@
 
        <!--Show Destinations-->
        <div class="col-sm-12 col-lg-8 col-lg-offset-2">
-         
+         <div id="destinations">
+           <table class="table table-bordered table-striped table-hover table-responsive">
+             <thead>
+               <tr>
+                 <th>
+                   Region
+                 </th>
+                 <th>
+                   Beaches Nearby
+                 </th>
+                 <th>
+                   Museums Nearby
+                 </th>
+                 <th>
+                   Big City
+                 </th>
+                 <th>
+                   Weather Type
+                 </th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr class="europe">
+                 <td>
+                   Italy
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                  Yes
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                   70's
+                 </td>
+               </tr>
+               <tr class="austrilia">
+                 <td>
+                   Austrilia
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                    90's
+                 </td>
+               </tr>
+               <tr class="asia">
+                 <td>
+                   China
+                 </td>
+                 <td>
+                    No
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                   80's
+                 </td>
+               </tr>
+               <tr class="island">
+                 <td>
+                   Bahamas
+                 </td>
+                 <td>
+                   Yes
+                 </td>
+                 <td>
+                   No
+                 </td>
+                 <td>
+                   No
+                 </td>
+                 <td>
+                   90's
+                 </td>
+               </tr>
+             </tbody>
+            </table>
+         </div>
        </div>
      </div>
    </div>

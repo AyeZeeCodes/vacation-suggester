@@ -1,0 +1,9 @@
+Pick a region
+
+Do you want a beach nearby?
+
+Do you want to visit museums?
+
+Do you want to travel in a big city?
+
+How hot do you want the weather to be?

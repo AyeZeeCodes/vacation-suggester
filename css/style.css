@@ -17,7 +17,7 @@ header h1 {
 #name input {
   width: 100%!important;
 }
-.europe, .asia, .austrilia, .island, .outback {
+.europe, .asia, .australia, .island, .outback {
   display: none;
 }
 .greeting-msg {

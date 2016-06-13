@@ -1,6 +1,7 @@
 #Vacation Suggester
 ###Description
 A simple webpage that takes a user's input and suggests a destination.
+You can view the project [here](http://ayezeecodes.github.io/vacation-suggester)
 
 ###Technology used
 * HTML
